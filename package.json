@@ -1,0 +1,27 @@
+{
+  "name": "ticket-backend",
+  "version": "1.0.0",
+  "description": "Ticket raising application for Media Department",
+  "homepage": "https://github.com/kirtick28/Ticket-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/kirtick28/Ticket-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirtick28/Ticket-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Kirtick M M",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "morgan": "^1.10.1"
+  }
+}
