@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "ticket-backend",
   "version": "1.0.0",
   "description": "Ticket raising application for Media Department",
@@ -15,7 +16,10 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint src server.js",
+    "format": "prettier --write src server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
@@ -23,5 +27,12 @@
     "express": "^5.2.1",
     "mongoose": "^9.2.1",
     "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
   }
 }

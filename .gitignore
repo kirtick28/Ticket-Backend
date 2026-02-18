@@ -1,3 +1,30 @@
-node_modules
-config.env
+# Node modules
+node_modules/
+
+# Environment variables
 .env
+.env.*
+*.env
+
+# Logs
+logs/
+*.log
+access.log
+
+# Build folders (if later used)
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage (if you add testing later)
+coverage/
+
+# VS Code settings (optional)
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
