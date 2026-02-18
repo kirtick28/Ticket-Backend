@@ -11,6 +11,9 @@ export default defineConfig([
       ecmaVersion: 'latest',
       sourceType: 'module',
       globals: globals.node
+    },
+    rules: {
+      'no-unused-vars': 'warn'
     }
   }
 ]);
