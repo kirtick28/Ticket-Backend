@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config({ path: './config.env' });
 
-import app from './app.js';
+import app from './src/app.js';
 
 // Uncaught Exception
 process.on('uncaughtException', (err) => {
